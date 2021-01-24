@@ -1,0 +1,40 @@
+<div class="product-image">
+	<div class="imagen" *ngIf="dato==1">
+		<img src="../assets/img/product_detail_x1_mobile_MOMENTUM_True_Wireless_2_Case_black_Sennheiser.png" alt="" width="74">
+	</div>
+	<div class="imagen imagen-2-2" *ngIf="dato==2">
+		<img src="../assets/img/big-MOMENTUM-TRUEWIRELESS2.png" alt="" width="74">
+	</div>
+	<div class="imagen imagen-3-3" *ngIf="dato==3">
+		<img src="../assets/img/Screen Shot 2020-08-11 at 10.15.55.png" alt="" width="74">
+	</div>
+</div>
+
+<div class="product-images">
+	<div class="imagen-prod-1" (click)="clickFunction(1)" [ngClass]="{'this-is': dato == 1 }">
+		<img src="../assets/img/product_detail_x1_mobile_MOMENTUM_True_Wireless_2_Case_black_Sennheiser.png" alt="" width="74">
+	</div>
+	<div class="imagen-prod-2" (click)="clickFunction(2)" [ngClass]="{'this-is': dato == 2 }">
+		<img src="../assets/img/big-MOMENTUM-TRUEWIRELESS2.png" alt="" width="74">
+	</div>
+	<div class="imagen-prod-3" (click)="clickFunction(3)" [ngClass]="{'this-is': dato == 3 }">
+		<img src="../assets/img/Screen Shot 2020-08-11 at 10.15.55.png" alt="" width="74">
+	</div>
+</div>
+
+<div class="product-acc">
+	<div class="imagen-acc-1">
+		<img src="../assets/img/Path.png" alt="" width="74">
+		<h5>Customizable Touch Controls</h5>
+	</div>
+	<div class="imagen-acc-2">
+		<img src="../assets/img/Shape.png" alt="" width="74">
+		<h5>Built-in Equializer</h5>
+	</div>
+	<div class="imagen-acc-3">
+		<img src="../assets/img/CombinedShape.png" alt="" width="74">
+		<h5>Active Noise Cancellation</h5>
+	</div>
+</div>
+
+

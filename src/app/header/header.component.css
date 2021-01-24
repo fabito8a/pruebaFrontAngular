@@ -1,0 +1,15 @@
+.header{
+	width: 100%;
+}
+.header .imagen{
+	margin-left: 8%;
+	border-bottom: 2px solid #EFF0F2;
+	height: 85px;
+	margin-right: 8%;
+}
+.header img{
+	max-width: 53px;
+	display: block;
+	margin: auto;
+	padding-top: 15px;
+}

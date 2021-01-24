@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularFront"
+    }
+  },
+  "defaultProject": "angularFront",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,78 @@
+<div class="detail-t">
+
+	<div class="section-1">
+		<h5>NEW RELEASE</h5>
+		<h1>MOMENTUM True Wireless 2</h1>
+		<h2>Earbuds that put sound first</h2>
+	</div>
+
+	<div class="section-2">
+		<h5>STARTING AT</h5>
+		<h1>${{valor}}</h1>
+	</div>
+
+	<div class="section-3">
+		<div class="title">
+			<label (click)="clickFunction(1)" [ngClass]="{'this-now': data == 1 }">Overview</label>
+			<label (click)="clickFunction(2)" [ngClass]="{'this-now': data == 2 }" class="title-2">Feature</label>
+			<label (click)="clickFunction(3)" [ngClass]="{'this-now': data == 3 }" class="title-3">What's in the box?</label>
+		</div>
+		
+		<h5 *ngIf="data==1">Fot the past 75 years, Sennheiser has put sound first. The new MOMENTUM True Wireless 2 is no different. Thanks to leading audio technology and innovacion, these new earbuds deliver the best listening experience anytime, anywhere. With improved ergonomics designed for full day wearing and refined touch controls for a more personalised experience, they have been finely crafted for the most discerning listener and aim to simplify your life by enhancing your everyday.</h5>
+		<h5 *ngIf="data==2">222222222222222222 22222222222222222222222 222222222222222222 222222222222 22222222222222222222222 2222222222222222222  222222222222222222222222222222222 222222222222 222222222222222222222 222222222222222222222222re fjisdof  ijdsfosdjf idsjfods ifodsjfiods fiodsjfo f disofjodsf dsiofjidsof idf oidsfjof dso isdjfo personalised experience, they have been finely crafted for the most discerning listener and aim to simplify your life by enhancing your everyday.</h5>
+		<h5 *ngIf="data==3">3333333333333333 fiosdj foi fisdojf odsif sdoifj dsof dsiof odsf idjf dso fisd fodisjf sdiofj dsofjodsi fdjiof sodif osidf sodfi disodsf jisodf sdojfidsofjidos fjisodf idosf iofj idsf dsiofj fdisfjosf sifj sof jjfjfis 3ime, anywhere. With improved ergonomics designed for full day wearing and refined touch controls for a more personalised experience, they have been finely crafted for the most discerning listener and aim to simplify your life by enhancing your everyday.</h5>
+	</div>
+
+	<div class="section-4">
+		<h4>Choose your finish.</h4>
+		<div class="info">
+			<div class="bord">
+				<h5>Ivory White</h5>
+				<h5 class="text">For the past 75 years, Sennheiser has put sound first. The new MOMENTUM True.</h5>
+			</div>
+			<div class="bord cont-2">
+				<h5>Matte Black</h5>
+				<h5 class="text">Of all of the celestial bodies that capture our attention and fascination as astronomers.</h5>
+			</div>
+		</div>
+	</div>
+
+	<div class="section-5">
+		<h4>Would you like to add extended warranty coverage?.</h4>
+		<div class="info">
+			<div class="bord" [ngClass]="{'this-now-valor': valor == 295.95 }">
+				<h5>2 years coverage</h5>
+				<h5 class="text">For the past 75 years, Sennheiser has put sound first.</h5>
+			</div>
+			<div class="bord cont-2" (click)="clickValor(75)" [ngClass]="{'this-now-valor': valor == 370.95 }">
+				<h5>3 years coverage</h5>
+				<h5 class="text">For the past 75 years, Sennheiser has put sound first.</h5><span>+ $75</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="section-6">
+		<h4>Features.</h4>
+		<div class="info">
+			<div class="bord" [ngClass]="{'this-now-valor': valor == 295.95 }">
+				<h5>Voice Assistant support</h5>
+			</div>
+			<div class="bord cont-2" (click)="clickValor2(25)" [ngClass]="{'this-now-valor': valor == 395.95 }">
+				<h5>Customizable controls</h5><span>+ $25</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="section-7">
+		<h4>Specifications.</h4>
+		<h5>Dimensions <span>76.8 x 43.8 x 34.7 mm (earbuds and charging case)</span></h5>
+		<h5>USB Standard <span>USB-C</span></h5>
+		<h5>Power supply <span>Sennheiser 7mm dynamic driver</span></h5>
+		<h5>Frequency response (Microphone) <span>100 Hz to 10khz</span></h5>
+		<h5>Frequency response <span>5 - 21,000 Hz</span></h5>
+		<h5>Noise cancellation <span>single-Mic ANC per earbud side</span></h5>
+	</div>
+
+</div>
+
+
